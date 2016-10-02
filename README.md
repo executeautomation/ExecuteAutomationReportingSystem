@@ -1,4 +1,4 @@
-# ExecuteAutomationReportingSystem (Initial Release)
+# ExecuteAutomation Reporting System (Initial Release)
 This repository contains ExecuteAutomation Reporting System along with ExecuteAutomation Web Service.
 
 ##Description
@@ -8,9 +8,9 @@ ExecuteAutomation Reporting System (EARS) is a one point reporting system for au
     3. Robotium
     4. Appium
 
-ExecuteAutomation Web Service (EAWS) is built with WCF which can be consumed by above said tools with just 1 lines of code.
+ExecuteAutomation Web Service System (EAWS) is built with WCF technology, which can be consumed by above said tools with just 1 lines of code.
 
-##How to Run the application
+##How to Run the ExecuteAutomation Reporting System ?
 1. First run the database script from the DatabaseScript folder which contains two files
     1. DBAndTableScript.sql
     2. StoredProcedures.sql
@@ -22,6 +22,7 @@ ExecuteAutomation Web Service (EAWS) is built with WCF which can be consumed by 
     <add name="EARS_DBConnectionString" connectionString="Data Source=localhost;Initial Catalog=EARS_DB;Integrated Security=True"
       providerName="System.Data.SqlClient" />
   </connectionStrings>
+
 ```
 
 ##Where can I learn building this tool ?
@@ -34,12 +35,13 @@ Here is the complete introduction video
 
 ##Screenshots
 ###Home Page
-![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/Image1.png "Home Page")
+![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/Image1.PNG "Home Page")
 
 ###DetailedReport
-![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/DetailedReport.png, "Detailed Report")
+![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/DetailedReport.png "Detailed Report")
 
 
+##For more articles
+Visit http://www.executeautomation.com
 
-
-
+Automation framework development with Selenium C# (Advanced) - https://www.udemy.com/framework-development-with-selenium-csharp-advanced/
