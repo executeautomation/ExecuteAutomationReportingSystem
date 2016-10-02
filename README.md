@@ -3,10 +3,10 @@ This repository contains ExecuteAutomation Reporting System along with ExecuteAu
 
 ##Description
 ExecuteAutomation Reporting System (EARS) is a one point reporting system for automation testing tools and custom written frameworks like
-1. Selenium
-2. Visual Studio Coded UI
-3. Robotium
-4. Appium
+    1. Selenium
+    2. Visual Studio Coded UI
+    3. Robotium
+    4. Appium
 
 ExecuteAutomation Web Service (EAWS) is built with WCF which can be consumed by above said tools with just 1 lines of code.
 
@@ -34,10 +34,10 @@ Here is the complete introduction video
 
 ##Screenshots
 ###Home Page
-https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/Image1.png
+![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/Image1.png "Home Page")
 
 ###DetailedReport
-https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/DetailedReport.png
+![alt text](https://github.com/executeautomation/ExecuteAutomationReportingSystem/blob/master/Images/DetailedReport.png, "Detailed Report")
 
 
 
