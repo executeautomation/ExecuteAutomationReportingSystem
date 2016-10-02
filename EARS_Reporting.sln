@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EARS", "EARS\EARS.csproj", "{2613EBF4-71EC-4080-8DF0-8219AF3519AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EARS_Service", "EARS_Service\EARS_Service.csproj", "{63904994-4AB8-4EED-B8D7-93F01C9A4D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_EARS_Service", "Test_EARS_Service\Test_EARS_Service.csproj", "{58BE2141-1291-481A-958D-246130476497}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63904994-4AB8-4EED-B8D7-93F01C9A4D15} = {63904994-4AB8-4EED-B8D7-93F01C9A4D15}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2613EBF4-71EC-4080-8DF0-8219AF3519AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2613EBF4-71EC-4080-8DF0-8219AF3519AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2613EBF4-71EC-4080-8DF0-8219AF3519AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2613EBF4-71EC-4080-8DF0-8219AF3519AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63904994-4AB8-4EED-B8D7-93F01C9A4D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63904994-4AB8-4EED-B8D7-93F01C9A4D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63904994-4AB8-4EED-B8D7-93F01C9A4D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63904994-4AB8-4EED-B8D7-93F01C9A4D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BE2141-1291-481A-958D-246130476497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BE2141-1291-481A-958D-246130476497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BE2141-1291-481A-958D-246130476497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BE2141-1291-481A-958D-246130476497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CreateTestCycle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="aut" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="executedBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="requestedBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="buildNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="appVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="machineName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateTestCycleResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WriteTestResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="featureName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="scenarioName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stepName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="exception" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WriteTestResultResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
