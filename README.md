@@ -2,7 +2,8 @@
 This repository contains ExecuteAutomation Reporting System along with ExecuteAutomation Web Service.
 
 ##Description
-ExecuteAutomation Reporting System (EARS) is a one point reporting system for automation testing tools and custom written frameworks like
+ExecuteAutomation Reporting System (EARS) is a one point reporting system for automation testing tools and custom written frameworks like:
+
     1. Selenium
     2. Visual Studio Coded UI
     3. Robotium
